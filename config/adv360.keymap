@@ -44,6 +44,11 @@
             bindings = <&kp C_PREV>;
             key-positions = <63 46>;
         };
+
+        PAUSE_SONG {
+            bindings = <&kp C_PAUSE>;
+            key-positions = <46 62>;
+        };
     };
 
     keymap {
