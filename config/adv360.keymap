@@ -31,25 +31,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        NEXT_SONG {
-            bindings = <&kp C_NEXT>;
-            key-positions = <64 46>;
-            require-prior-idle-ms = <0>;
-        };
-
-        LAST_SONG {
-            bindings = <&kp C_PREV>;
-            key-positions = <63 46>;
-        };
-
-        PAUSE_SONG {
-            bindings = <&kp C_PAUSE>;
-            key-positions = <46 62>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         next: next {
